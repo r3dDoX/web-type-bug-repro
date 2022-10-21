@@ -1,0 +1,17 @@
+{
+  "name": "web-type-bug",
+  "version": "1.0.0",
+  "description": "Bug reproduction",
+  "scripts": {
+    "test": "npm run test --workspaces --if-present"
+  },
+  "workspaces": [
+    "packages/lit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r3dDoX/web-type-bug-repro.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
